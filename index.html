@@ -1,0 +1,1232 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <script src="https://kit.fontawesome.com/72c5b1ebe2.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css">
+    <link rel="stylesheet" href="/assets/css/main.css">
+    <link rel="stylesheet" href="/assets/css/base.css">
+    <link rel="stylesheet" href="/assets/css/grid.css">
+    <link rel="stylesheet" href="/assets/css/responsive.css">
+
+    <!-- font -->
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;700&display=swap" rel="stylesheet">
+</head>
+
+<body>
+    <div class="app">
+        <!-- Header -->
+        <header class="header">
+            <div class="grid wide">
+                <nav class="header__navbar hide-on-mobile-tablet">
+                    <ul class="header__navbar-list">
+                        <li class="header__navbar-item header__navbar-item--border header__navbar-item-hover">
+                            Vào cửa hàng trên ứng dụng
+                            <!-- Header QR -->
+                            <div class="header__qr">
+                                <img src="/assets/img/qr-code.png" alt="QR code" class="header__qr-img">
+                                <div class="header__qr-app">
+                                    <!-- <a href="" class="header__qr-link">
+                                        <img src="/assets/img/gg.png" alt="Google Play" class="header__qr-app-down">
+                                    </a>
+                                    <a href="" class="header__qr-link">
+                                        <img src="/assets/img/app-store.png" alt="App Store" class="header__qr-app-down">
+                                    </a> -->
+                                    <img src="/assets/img/gg.png" alt="Google Play" class="header__qr-app-down">
+                                    <img src="/assets/img/app-store.png" alt="App Store" class="header__qr-app-down">
+                                    
+                                </div>
+                            </div>
+                            <!-- End Header QR -->
+                        </li>
+                        <li class="header__navbar-item">
+                            <span class="header__navbar-title-connect">Kết Nối</span>
+                            <a href="" class="header__navbar-icon-link">
+                                <i class="header__navbar-icon fab fa-facebook"></i>
+                            </a>
+                            <a href="" class="header__navbar-icon-link">
+                                <i class="header__navbar-icon fab fa-instagram"></i>
+                            </a>
+                        </li>
+                        
+                    </ul>
+                    <ul class="header__navbar-list">
+                        <li class="header__navbar-item header__navbar-item--has-notify">
+                            <a href="#" class="header__navbar-item-link">
+                                <i class="header__navbar-icon fas fa-bell"></i>
+                                Thông Báo
+                            </a>
+                            <div class="header__notify">
+                                <header class="header__notify-header">
+                                    <h3>Thông báo mới nhận</h3>
+                                </header>
+                                <ul class="header__notify-list">
+                                    <li class="header__notify-item header__notify-item--readed">
+                                        <a href="" class="header__notify-link">
+                                            <img src="https://bizweb.dktcdn.net/thumb/1024x1024/100/418/012/products/8.jpg?v=1620462816270" alt="" class="header__notify-img">
+                                            <div class="header__notify-info">
+                                                <span class="header__notify-name">
+                                                    LONGLINE TEE - BLACK
+                                                </span>
+                                                <span class="header__notify-description">
+                                                    Chiếc áo thun mới với kiểu dáng vạt bầu sẽ mang đến bạn sự thoải mái, rộng rãi và chắc chắn sẽ là item không thể thiếu trong mùa Hè này.
+                                                </span>
+                                            </div>
+                                        </a>
+                                    </li>
+                                    <li class="header__notify-item">
+                                        <a href="" class="header__notify-link">
+                                            <img src="https://bizweb.dktcdn.net/thumb/1024x1024/100/418/012/products/clt0.jpg?v=1620463024943" alt="" class="header__notify-img">
+                                            <div class="header__notify-info">
+                                                <span class="header__notify-name">
+                                                    CLASSIC LOGO TEE - WHITE
+                                                </span>
+                                                <span class="header__notify-description">
+                                                    Chiếc áo thun với form dáng Oversize trẻ trung, năng động cùng phần Logo in đặc biệt tạo điểm nhấn riêng nổi bật.
+                                                </span>
+                                            </div>
+                                        </a>
+                                    </li>
+                                    <li class="header__notify-item">
+                                        <a href="" class="header__notify-link">
+                                            <img src="https://bizweb.dktcdn.net/thumb/1024x1024/100/418/012/products/cs2.jpg?v=1624451185127" alt="" class="header__notify-img">
+                                            <div class="header__notify-info">
+                                                <span class="header__notify-name">
+                                                    POLO SHIRT - BLACK
+                                                </span>
+                                                <span class="header__notify-description">
+                                                    Chiếc áo Polo Shirt với form dáng Slim Fit trẻ trung, ôm vừa phải, tôn dáng người mặc và chiều dài vừa phải là chiếc áo bạn nên có trong tủ đồ của mình.
+                                                </span>
+                                            </div>
+                                        </a>
+                                    </li>
+                                    <li class="header__notify-item">
+                                        <a href="" class="header__notify-link">
+                                            <img src="https://bizweb.dktcdn.net/thumb/1024x1024/100/418/012/products/lp1.jpg?v=1622104705173" alt="" class="header__notify-img">
+                                            <div class="header__notify-info">
+                                                <span class="header__notify-name">
+                                                    LOOSE PANTS - BLACK
+                                                </span>
+                                                <span class="header__notify-description">
+                                                    Kiểu quần mới với form dáng suông rộng cùng chất vải Cotton mềm mát sẽ mang đến bạn sự trẻ trung, thoải mái và mới lạ cho các outfit của bạn.
+                                                </span>
+                                            </div>
+                                        </a>
+                                    </li>
+                                </ul>
+                                <footer class="header__notify-footer">
+                                    <a href="" class="header__notify-footer-btn">
+                                        Xem Tất Cả
+                                    </a>
+                                </footer>
+                            </div>
+                        </li>
+                        <li class="header__navbar-item">
+                            <a href="#" class="header__navbar-item-link">
+                                <i class="header__navbar-icon far fa-question-circle"></i>
+                                Trợ Giúp
+                            </a>
+                        </li>
+                        <!-- <li class="header__navbar-item header__navbar-item--strong header__navbar-item--border">Đăng Ký</li>
+                        <li class="header__navbar-item header__navbar-item--strong">Đăng Nhập</li> -->
+                        <li class="header__navbar-item header__navbar-user">
+                            <img src="https://scontent-xsp1-2.xx.fbcdn.net/v/t1.6435-9/145115664_2776261855958759_7169305434464012954_n.jpg?_nc_cat=110&ccb=1-4&_nc_sid=09cbfe&_nc_ohc=0F-0879e0q8AX9yHEyB&_nc_ht=scontent-xsp1-2.xx&oh=7695c33f8ab8ab7e3999e3d340f6430d&oe=61380BFD" alt="" class="header__navbar-user-img">
+                            <span class="header__navbar-user-name">
+                               Tăng Thuận Phát
+                            </span>
+                            <ul class="header__navbar-user-menu">
+                                <li class="header__navbar-user-item">
+                                    <a href="">Tài khoản của tôi</a>
+                                </li>
+                                <li class="header__navbar-user-item">
+                                    <a href="">Đơn mua</a>
+                                </li>
+                                <li class="header__navbar-user-item">
+                                    <a href="">Đăng xuất</a>
+                                </li>
+                            </ul>
+                        </li>
+                    </ul>
+                </nav>
+                <!-- Header with seach -->
+                <div class="header-with-search">
+                    <label for="mobile-search-checkbox" class="header__mobile-search">
+                        <i class="header__mobile-search-icon fas fa-search"></i>
+                    </label>
+
+                    <div class="header__logo hide-on-tablet">
+                        <img src="/assets/img/TTP-removebg-preview.png" alt="" class="header__logo-img">
+                    </div>
+                    <input type="checkbox" hidden id="mobile-search-checkbox" class="header__search-checkbox">
+                    <div class="header__search">
+                        <div class="header__search-input-wrap">
+                            <input type="text" class="header__search-input" placeholder="Nhập để tìm kiếm">
+                            <!-- Search History -->
+                            <div class="header__search-history">
+                                <h3 class="header__search-history-heading">
+                                    Lịch sử tìm kiếm
+                                </h3>
+                                <ul class="header__search-history-list">
+                                    <li class="header__search-history-item">
+                                        <a href="">Phat dep trai</a>
+                                    </li>
+                                    <li class="header__search-history-item">
+                                        <a href="">Phat dep trai</a>
+                                    </li>
+                                    <li class="header__search-history-item">
+                                        <a href="">Phat dep trai</a>
+                                    </li>
+                                </ul>
+                            </div>
+                        </div>
+                        <button class="header__search-btn">
+                            <i class="header__search-btn-icon fas fa-search"></i>
+                        </button>
+                    </div>
+                    <!-- Cart -->
+                    <div class="header__cart">
+                        <div class="header__cart-wrap">
+                            <i class="header__cart-icon fas fa-shopping-cart"></i>
+                            <span class="header__cart-notice">
+                                0
+                            </span>
+                            <div class="header__cart-list header__cart-list--nocart">
+                                <img src="/assets/img/cart-noitem-removebg-preview.png" alt="" class="header__cart-no-cart-img">
+                                <span class="header__cart-list-no-cart-msg">Chưa có sản phẩm</span>
+                            </div>
+                        </div>
+                       
+                        
+                    </div>
+                </div>
+            </div> 
+            <ul class="header__sort-bar">
+                <li class="header__sort-item">
+                    <a href="" class="header__sort-link">
+                        Liên quan
+                    </a>
+                </li>
+                <li class="header__sort-item header__sort-item--active">
+                    <a href="" class="header__sort-link">
+                        Mới nhất
+                    </a>
+                </li>
+                <li class="header__sort-item">
+                    <a href="" class="header__sort-link">
+                        Bán chạy
+                    </a>
+                </li>
+                <li class="header__sort-item">
+                    <a href="" class="header__sort-link">
+                        Giá
+                    </a>
+                </li>
+            </ul>
+        </header>
+        <!-- End Header -->
+        <div class="app_container">
+            <div class="grid wide">
+                <div class="row sm-gutter app_content">
+                    <div class="col l-2 m-0 c-0">
+                        <nav class="category">
+                            <h3 class="category__heading">
+                                <i class="category__heading-icon fas fa-list"></i>
+                                Danh mục
+                            </h3>
+                            <ul class="category-list">
+                                <li class="category-item category-item-active">
+                                    <a href="" class="category-item__link">Áo Thun</a>
+                                </li>
+                                <li class="category-item">
+                                    <a href="" class="category-item__link">Áo Sơ Mi</a>
+                                </li>
+                                <li class="category-item">
+                                    <a href="" class="category-item__link">Áo Sweater</a>
+                                </li>
+                                <li class="category-item">
+                                    <a href="" class="category-item__link">Áo Hoddie</a>
+                                </li>
+                                <li class="category-item">
+                                    <a href="" class="category-item__link">Quần tây</a>
+                                </li>
+                                <li class="category-item">
+                                    <a href="" class="category-item__link">Quần short</a>
+                                </li>
+                            </ul>
+                        </nav>
+                    </div>
+                    <div class="col l-10 m-12 c-12">
+                        <div class="home-filter hide-on-mobile-tablet">
+                            <span class="home-filter__lable">Sắp xếp theo</span>
+                            <button class="home-filter__btn btn">Phổ biến</button>
+                            <button class="home-filter__btn btn btn-primary">Mới nhất</button>
+                            <button class="home-filter__btn btn">Bán chạy</button>
+                        
+                            <div class="select-input">
+                                <span class="select-input__label">Giá</span>
+                                <i class="select-input__icon fas fa-sort-down"></i>
+                                <ul class="select-input__list">
+                                    <li class="select-input__item">
+                                        <a href="" class="select-input__link">
+                                            Giá: Thấp đến cao
+                                        </a>
+                                   </li>
+                                   <li class="select-input__item">
+                                    <a href="" class="select-input__link">
+                                        Giá: Cao đến thấp
+                                    </a>
+                               </li>
+                                </ul>
+                            </div>
+                            
+                            <div class="home-filter__page">
+                                <span class="home-filter__page-number">
+                                    <span class="home-filter__page-current">
+                                        1</span>/14
+                                </span>
+                                <div class="home-filter__page-control">
+                                    <a href="" class="home-filter__page-btn home-filter__page-btn-disable">
+                                        <i class="home-filter__page-icon fas fa-chevron-left"></i>
+                                    </a>
+                                    <a href="" class="home-filter__page-btn">
+                                        <i class="home-filter__page-icon fas fa-chevron-right"></i>
+                                    </a>
+                                </div>
+                            </div>
+                        </div>
+
+                        <nav class="mobile-category">
+                            <ul class="mobile-category__list">
+                                <li class="mobile-category__item">
+                                    <a href="" class="mobile-category__link">
+                                        Áo Thun
+                                    </a>
+                                </li>
+                                
+                                <li class="mobile-category__item">
+                                    <a href="" class="mobile-category__link">
+                                        Áo Khoác
+                                    </a>
+                                </li>
+                                <li class="mobile-category__item">
+                                    <a href="" class="mobile-category__link">
+                                        Áo Sơ Mi
+                                    </a>
+                                </li>
+                                <li class="mobile-category__item">
+                                    <a href="" class="mobile-category__link">
+                                        Áo Sweater
+                                    </a>
+                                </li>
+                                <li class="mobile-category__item">
+                                    <a href="" class="mobile-category__link">
+                                        Áo Hoddie
+                                    </a>
+                                </li>
+                                <li class="mobile-category__item">
+                                    <a href="" class="mobile-category__link">
+                                        Quần Short
+                                    </a>
+                                </li>
+                                <li class="mobile-category__item">
+                                    <a href="" class="mobile-category__link">
+                                        Quần Tây
+                                    </a>
+                                </li>
+                            </ul>
+                        </nav>
+
+                        <div class="home-product">
+                            <div class="row sm-gutter">
+                                <div class="col l-2-4 m-4 c-6">
+                                    <!-- Product item -->
+                                    <div class="home-product-item">
+                                        <div style="background-image: url('https://bizweb.dktcdn.net/thumb/1024x1024/100/418/012/products/clt0.jpg?v=1620463024943');" class="home-product-item__img"></div>
+                                        <h4 class="home-product-item__name">
+                                            CLASSIC LOGO TEE - WHITE
+                                        </h4>
+                                        <div class="home-product-item__price">
+                                            <span class="home-product-item__price-old">
+                                                300.000d
+                                            </span>
+                                            <span class="home-product-item__price-current">
+                                                150.000d
+                                            </span>
+                                        </div>
+                                        <div class="home-product-item__action">
+                                            <span class="home-product-item__like home-product-item__like--liked">
+                                                <i class="home-product-item__like-icon-fill fas fa-heart"></i>
+                                                <i class="home-product-item__like-icon-empty far fa-heart"></i>
+                                                
+                                            </span>
+                                            <div class="home-product-item__rating">
+                                                <i class="home-product-item__star-gold fas fa-star"></i>
+                                                <i class="home-product-item__star-gold fas fa-star"></i>
+                                                <i class="home-product-item__star-gold fas fa-star"></i>
+                                                <i class="home-product-item__star-gold fas fa-star"></i>
+                                                <i class="fas fa-star"></i>
+                                            </div>
+                                            <span class="home-product-item__sold">
+                                                12 Đã bán
+                                            </span>
+                                        </div>
+                                        <div class="home-product-item__origin">
+                                            <span class="home-product-item__brand">
+                                                TTP Brand
+                                            </span>
+                                            <span class="home-product-item__origin-name">
+                                                Japan
+                                            </span>
+                                        </div>
+                                        <div class="home-product-item__favorite">
+                                            <i class="fas fa-check"></i>
+                                            Yêu thích
+                                        </div>
+                                        <div class="home-product-item__saleoff">
+                                            <span class="home-product-item__saleoff-percent">
+                                                50%
+                                            </span>
+                                            <span class="home-product-item__saleoff-label">
+                                                GIẢM
+                                            </span>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col l-2-4 m-4 c-6">
+                                    <!-- Product item -->
+                                    <div class="home-product-item">
+                                        <div style="background-image: url('https://bizweb.dktcdn.net/thumb/1024x1024/100/418/012/products/longline-green.jpg?v=1623387891527');" class="home-product-item__img"></div>
+                                        <h4 class="home-product-item__name">
+                                            LONGLINE TEE - GREEN
+                                        </h4>
+                                        <div class="home-product-item__price">
+                                            <span class="home-product-item__price-old">
+                                                300.000d
+                                            </span>
+                                            <span class="home-product-item__price-current">
+                                                150.000d
+                                            </span>
+                                        </div>
+                                        <div class="home-product-item__action">
+                                            <span class="home-product-item__like home-product-item__like--liked">
+                                                <i class="home-product-item__like-icon-empty far fa-heart"></i>
+                                                <i class="home-product-item__like-icon-fill fas fa-heart"></i>
+                                            </span>
+                                            <div class="home-product-item__rating">
+                                                <i class="home-product-item__star-gold fas fa-star"></i>
+                                                <i class="home-product-item__star-gold fas fa-star"></i>
+                                                <i class="home-product-item__star-gold fas fa-star"></i>
+                                                <i class="home-product-item__star-gold fas fa-star"></i>
+                                                <i class="fas fa-star"></i>
+                                            </div>
+                                            <span class="home-product-item__sold">
+                                                12 Đã bán
+                                            </span>
+                                        </div>
+                                        <div class="home-product-item__origin">
+                                            <span class="home-product-item__brand">
+                                                TTP Brand
+                                            </span>
+                                            <span class="home-product-item__origin-name">
+                                                Japan
+                                            </span>
+                                        </div>
+                                        <div class="home-product-item__favorite">
+                                            <i class="fas fa-check"></i>
+                                            Yêu thích
+                                        </div>
+                                        <div class="home-product-item__saleoff">
+                                            <span class="home-product-item__saleoff-percent">
+                                                50%
+                                            </span>
+                                            <span class="home-product-item__saleoff-label">
+                                                GIẢM
+                                            </span>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col l-2-4 m-4 c-6">
+                                    <!-- Product item -->
+                                    <div class="home-product-item">
+                                        <div style="background-image: url('https://bizweb.dktcdn.net/thumb/1024x1024/100/418/012/products/longline-grey.jpg?v=1623387934757');" class="home-product-item__img"></div>
+                                        <h4 class="home-product-item__name">
+                                            LONGLINE TEE - GREY
+                                        </h4>
+                                        <div class="home-product-item__price">
+                                            <span class="home-product-item__price-old">
+                                                300.000d
+                                            </span>
+                                            <span class="home-product-item__price-current">
+                                                280.000d
+                                            </span>
+                                        </div>
+                                        <div class="home-product-item__action">
+                                            <span class="home-product-item__like home-product-item__like--liked">
+                                                <i class="home-product-item__like-icon-empty far fa-heart"></i>
+                                                <i class="home-product-item__like-icon-fill fas fa-heart"></i>
+                                            </span>
+                                            <div class="home-product-item__rating">
+                                                <i class="home-product-item__star-gold fas fa-star"></i>
+                                                <i class="home-product-item__star-gold fas fa-star"></i>
+                                                <i class="home-product-item__star-gold fas fa-star"></i>
+                                                <i class="home-product-item__star-gold fas fa-star"></i>
+                                                <i class="fas fa-star"></i>
+                                            </div>
+                                            <span class="home-product-item__sold">
+                                                20 Đã bán
+                                            </span>
+                                        </div>
+                                        <div class="home-product-item__origin">
+                                            <span class="home-product-item__brand">
+                                                TTP Brand
+                                            </span>
+                                            <span class="home-product-item__origin-name">
+                                                Korean
+                                            </span>
+                                        </div>
+                                        <div class="home-product-item__favorite">
+                                            <i class="fas fa-check"></i>
+                                            Yêu thích
+                                        </div>
+                                        <div class="home-product-item__saleoff">
+                                            <span class="home-product-item__saleoff-percent">
+                                                10%
+                                            </span>
+                                            <span class="home-product-item__saleoff-label">
+                                                GIẢM
+                                            </span>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col l-2-4 m-4 c-6">
+                                    <!-- Product item -->
+                                    <div class="home-product-item">
+                                        <div style="background-image: url('https://bizweb.dktcdn.net/thumb/1024x1024/100/418/012/products/8.jpg?v=1620462816270');" class="home-product-item__img"></div>
+                                        <h4 class="home-product-item__name">
+                                            LONGLINE TEE - BLACK
+                                        </h4>
+                                        <div class="home-product-item__price">
+                                            <span class="home-product-item__price-old">
+                                                300.000d
+                                            </span>
+                                            <span class="home-product-item__price-current">
+                                                280.000d
+                                            </span>
+                                        </div>
+                                        <div class="home-product-item__action">
+                                            <span class="home-product-item__like home-product-item__like--liked">
+                                                <i class="home-product-item__like-icon-empty far fa-heart"></i>
+                                                <i class="home-product-item__like-icon-fill fas fa-heart"></i>
+                                            </span>
+                                            <div class="home-product-item__rating">
+                                                <i class="home-product-item__star-gold fas fa-star"></i>
+                                                <i class="home-product-item__star-gold fas fa-star"></i>
+                                                <i class="home-product-item__star-gold fas fa-star"></i>
+                                                <i class="home-product-item__star-gold fas fa-star"></i>
+                                                <i class="fas fa-star"></i>
+                                            </div>
+                                            <span class="home-product-item__sold">
+                                                8 Đã bán
+                                            </span>
+                                        </div>
+                                        <div class="home-product-item__origin">
+                                            <span class="home-product-item__brand">
+                                                TTP Brand
+                                            </span>
+                                            <span class="home-product-item__origin-name">
+                                                VietNam
+                                            </span>
+                                        </div>
+                                        <div class="home-product-item__favorite">
+                                            <i class="fas fa-check"></i>
+                                            Yêu thích
+                                        </div>
+                                        <div class="home-product-item__saleoff">
+                                            <span class="home-product-item__saleoff-percent">
+                                                10%
+                                            </span>
+                                            <span class="home-product-item__saleoff-label">
+                                                GIẢM
+                                            </span>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col l-2-4 m-4 c-6">
+                                    <!-- Product item -->
+                                    <div class="home-product-item">
+                                        <div style="background-image: url('https://bizweb.dktcdn.net/thumb/1024x1024/100/418/012/products/polo-navy.jpg?v=1620118781317');" class="home-product-item__img"></div>
+                                        <h4 class="home-product-item__name">
+                                            POLO SHIRT - NAVY
+                                        </h4>
+                                        <div class="home-product-item__price">
+                                            <span class="home-product-item__price-old">
+                                                400.000d
+                                            </span>
+                                            <span class="home-product-item__price-current">
+                                                360.000d
+                                            </span>
+                                        </div>
+                                        <div class="home-product-item__action">
+                                            <span class="home-product-item__like home-product-item__like--liked">
+                                                <i class="home-product-item__like-icon-empty far fa-heart"></i>
+                                                <i class="home-product-item__like-icon-fill fas fa-heart"></i>
+                                            </span>
+                                            <div class="home-product-item__rating">
+                                                <i class="home-product-item__star-gold fas fa-star"></i>
+                                                <i class="home-product-item__star-gold fas fa-star"></i>
+                                                <i class="home-product-item__star-gold fas fa-star"></i>
+                                                <i class="home-product-item__star-gold fas fa-star"></i>
+                                                <i class="fas fa-star"></i>
+                                            </div>
+                                            <span class="home-product-item__sold">
+                                                0 Đã bán
+                                            </span>
+                                        </div>
+                                        <div class="home-product-item__origin">
+                                            <span class="home-product-item__brand">
+                                                TTP Brand
+                                            </span>
+                                            <span class="home-product-item__origin-name">
+                                                VietNam
+                                            </span>
+                                        </div>
+                                        <div class="home-product-item__favorite">
+                                            <i class="fas fa-check"></i>
+                                            Yêu thích
+                                        </div>
+                                        <div class="home-product-item__saleoff">
+                                            <span class="home-product-item__saleoff-percent">
+                                                10%
+                                            </span>
+                                            <span class="home-product-item__saleoff-label">
+                                                GIẢM
+                                            </span>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col l-2-4 m-4 c-6">
+                                    <!-- Product item -->
+                                    <div class="home-product-item">
+                                        <div style="background-image: url('https://bizweb.dktcdn.net/thumb/1024x1024/100/418/012/products/10.jpg?v=1618820146793');" class="home-product-item__img"></div>
+                                        <h4 class="home-product-item__name">
+                                            LONG SLEEVE TSHIRT - GREY
+                                        </h4>
+                                        <div class="home-product-item__price">
+                                            <span class="home-product-item__price-old">
+                                                300.000d
+                                            </span>
+                                            <span class="home-product-item__price-current">
+                                                270.000d
+                                            </span>
+                                        </div>
+                                        <div class="home-product-item__action">
+                                            <span class="home-product-item__like home-product-item__like--liked">
+                                                <i class="home-product-item__like-icon-empty far fa-heart"></i>
+                                                <i class="home-product-item__like-icon-fill fas fa-heart"></i>
+                                            </span>
+                                            <div class="home-product-item__rating">
+                                                <i class="home-product-item__star-gold fas fa-star"></i>
+                                                <i class="home-product-item__star-gold fas fa-star"></i>
+                                                <i class="home-product-item__star-gold fas fa-star"></i>
+                                                <i class="home-product-item__star-gold fas fa-star"></i>
+                                                <i class="fas fa-star"></i>
+                                            </div>
+                                            <span class="home-product-item__sold">
+                                                7 Đã bán
+                                            </span>
+                                        </div>
+                                        <div class="home-product-item__origin">
+                                            <span class="home-product-item__brand">
+                                                TTP Brand
+                                            </span>
+                                            <span class="home-product-item__origin-name">
+                                                Korean
+                                            </span>
+                                        </div>
+                                        <div class="home-product-item__favorite">
+                                            <i class="fas fa-check"></i>
+                                            Yêu thích
+                                        </div>
+                                        <div class="home-product-item__saleoff">
+                                            <span class="home-product-item__saleoff-percent">
+                                                10%
+                                            </span>
+                                            <span class="home-product-item__saleoff-label">
+                                                GIẢM
+                                            </span>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col l-2-4 m-4 c-6">
+                                    <!-- Product item -->
+                                    <div class="home-product-item">
+                                        <div style="background-image: url('https://bizweb.dktcdn.net/thumb/1024x1024/100/418/012/products/ls03.jpg?v=1623389109503');" class="home-product-item__img"></div>
+                                        <h4 class="home-product-item__name">
+                                            LONG SLEEVE TSHIRT - WHITE
+                                        </h4>
+                                        <div class="home-product-item__price">
+                                            <span class="home-product-item__price-old">
+                                                300.000d
+                                            </span>
+                                            <span class="home-product-item__price-current">
+                                                200.000d
+                                            </span>
+                                        </div>
+                                        <div class="home-product-item__action">
+                                            <span class="home-product-item__like home-product-item__like--liked">
+                                                <i class="home-product-item__like-icon-empty far fa-heart"></i>
+                                                <i class="home-product-item__like-icon-fill fas fa-heart"></i>
+                                            </span>
+                                            <div class="home-product-item__rating">
+                                                <i class="home-product-item__star-gold fas fa-star"></i>
+                                                <i class="home-product-item__star-gold fas fa-star"></i>
+                                                <i class="home-product-item__star-gold fas fa-star"></i>
+                                                <i class="home-product-item__star-gold fas fa-star"></i>
+                                                <i class="fas fa-star"></i>
+                                            </div>
+                                            <span class="home-product-item__sold">
+                                                20 Đã bán
+                                            </span>
+                                        </div>
+                                        <div class="home-product-item__origin">
+                                            <span class="home-product-item__brand">
+                                                TTP Brand
+                                            </span>
+                                            <span class="home-product-item__origin-name">
+                                                Korean
+                                            </span>
+                                        </div>
+                                        <div class="home-product-item__favorite">
+                                            <i class="fas fa-check"></i>
+                                            Yêu thích
+                                        </div>
+                                        <div class="home-product-item__saleoff">
+                                            <span class="home-product-item__saleoff-percent">
+                                                30%
+                                            </span>
+                                            <span class="home-product-item__saleoff-label">
+                                                GIẢM
+                                            </span>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col l-2-4 m-4 c-6">
+                                    <!-- Product item -->
+                                    <div class="home-product-item">
+                                        <div style="background-image: url('https://bizweb.dktcdn.net/thumb/1024x1024/100/418/012/products/9.jpg?v=1618823288153');" class="home-product-item__img"></div>
+                                        <h4 class="home-product-item__name">
+                                            LONG SLEEVE TSHIRT - BLACK
+                                        </h4>
+                                        <div class="home-product-item__price">
+                                            <span class="home-product-item__price-old">
+                                                300.000d
+                                            </span>
+                                            <span class="home-product-item__price-current">
+                                                150.000d
+                                            </span>
+                                        </div>
+                                        <div class="home-product-item__action">
+                                            <span class="home-product-item__like home-product-item__like--liked">
+                                                <i class="home-product-item__like-icon-empty far fa-heart"></i>
+                                                <i class="home-product-item__like-icon-fill fas fa-heart"></i>
+                                            </span>
+                                            <div class="home-product-item__rating">
+                                                <i class="home-product-item__star-gold fas fa-star"></i>
+                                                <i class="home-product-item__star-gold fas fa-star"></i>
+                                                <i class="home-product-item__star-gold fas fa-star"></i>
+                                                <i class="home-product-item__star-gold fas fa-star"></i>
+                                                <i class="fas fa-star"></i>
+                                            </div>
+                                            <span class="home-product-item__sold">
+                                                50 Đã bán
+                                            </span>
+                                        </div>
+                                        <div class="home-product-item__origin">
+                                            <span class="home-product-item__brand">
+                                                TTP Brand
+                                            </span>
+                                            <span class="home-product-item__origin-name">
+                                                Korean
+                                            </span>
+                                        </div>
+                                        <div class="home-product-item__favorite">
+                                            <i class="fas fa-check"></i>
+                                            Yêu thích
+                                        </div>
+                                        <div class="home-product-item__saleoff">
+                                            <span class="home-product-item__saleoff-percent">
+                                                50%
+                                            </span>
+                                            <span class="home-product-item__saleoff-label">
+                                                GIẢM
+                                            </span>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col l-2-4 m-4 c-6">
+                                    <!-- Product item -->
+                                    <div class="home-product-item">
+                                        <div style="background-image: url('https://bizweb.dktcdn.net/thumb/1024x1024/100/418/012/products/11.jpg?v=1618826758287');" class="home-product-item__img"></div>
+                                        <h4 class="home-product-item__name">
+                                            RELAX BOXY TSHIRT - BEIGE
+                                        </h4>
+                                        <div class="home-product-item__price">
+                                            <span class="home-product-item__price-old">
+                                                300.000d
+                                            </span>
+                                            <span class="home-product-item__price-current">
+                                                280.000d
+                                            </span>
+                                        </div>
+                                        <div class="home-product-item__action">
+                                            <span class="home-product-item__like home-product-item__like--liked">
+                                                <i class="home-product-item__like-icon-empty far fa-heart"></i>
+                                                <i class="home-product-item__like-icon-fill fas fa-heart"></i>
+                                            </span>
+                                            <div class="home-product-item__rating">
+                                                <i class="home-product-item__star-gold fas fa-star"></i>
+                                                <i class="home-product-item__star-gold fas fa-star"></i>
+                                                <i class="home-product-item__star-gold fas fa-star"></i>
+                                                <i class="home-product-item__star-gold fas fa-star"></i>
+                                                <i class="fas fa-star"></i>
+                                            </div>
+                                            <span class="home-product-item__sold">
+                                                88 Đã bán
+                                            </span>
+                                        </div>
+                                        <div class="home-product-item__origin">
+                                            <span class="home-product-item__brand">
+                                                TTP Brand
+                                            </span>
+                                            <span class="home-product-item__origin-name">
+                                                Korean
+                                            </span>
+                                        </div>
+                                        <div class="home-product-item__favorite">
+                                            <i class="fas fa-check"></i>
+                                            Yêu thích
+                                        </div>
+                                        <div class="home-product-item__saleoff">
+                                            <span class="home-product-item__saleoff-percent">
+                                                10%
+                                            </span>
+                                            <span class="home-product-item__saleoff-label">
+                                                GIẢM
+                                            </span>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col l-2-4 m-4 c-6">
+                                    <!-- Product item -->
+                                    <div class="home-product-item">
+                                        <div style="background-image: url('https://bizweb.dktcdn.net/thumb/1024x1024/100/418/012/products/tanktop1.jpg?v=1623401963697');" class="home-product-item__img"></div>
+                                        <h4 class="home-product-item__name">
+                                            TANK TOP TAMWAT - BLACK
+                                        </h4>
+                                        <div class="home-product-item__price">
+                                            <span class="home-product-item__price-old">
+                                                250.000d
+                                            </span>
+                                            <span class="home-product-item__price-current">
+                                                130.000d
+                                            </span>
+                                        </div>
+                                        <div class="home-product-item__action">
+                                            <span class="home-product-item__like home-product-item__like--liked">
+                                                <i class="home-product-item__like-icon-empty far fa-heart"></i>
+                                                <i class="home-product-item__like-icon-fill fas fa-heart"></i>
+                                            </span>
+                                            <div class="home-product-item__rating">
+                                                <i class="home-product-item__star-gold fas fa-star"></i>
+                                                <i class="home-product-item__star-gold fas fa-star"></i>
+                                                <i class="home-product-item__star-gold fas fa-star"></i>
+                                                <i class="home-product-item__star-gold fas fa-star"></i>
+                                                <i class="fas fa-star"></i>
+                                            </div>
+                                            <span class="home-product-item__sold">
+                                                20 Đã bán
+                                            </span>
+                                        </div>
+                                        <div class="home-product-item__origin">
+                                            <span class="home-product-item__brand">
+                                                TTP Brand
+                                            </span>
+                                            <span class="home-product-item__origin-name">
+                                                Japan
+                                            </span>
+                                        </div>
+                                        <div class="home-product-item__favorite">
+                                            <i class="fas fa-check"></i>
+                                            Yêu thích
+                                        </div>
+                                        <div class="home-product-item__saleoff">
+                                            <span class="home-product-item__saleoff-percent">
+                                                50%
+                                            </span>
+                                            <span class="home-product-item__saleoff-label">
+                                                GIẢM
+                                            </span>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+                        <ul class="pagination home-product__pagination">
+                            <li class="pagination-item">
+                                <a href="" class="pagination-item__link">
+                                    <i class="pagination-item__icon fas fa-chevron-left"></i>
+                                 </a>
+                            </li>
+                            <li class="pagination-item pagination-item__active">
+                                <a href="" class="pagination-item__link">
+                                    1
+                                 </a>
+                            </li>
+                            <li class="pagination-item">
+                                <a href="" class="pagination-item__link">
+                                    2
+                                 </a>
+                            </li>
+                            <li class="pagination-item">
+                                <a href="" class="pagination-item__link">
+                                    3
+                                 </a>
+                            </li>
+                            <li class="pagination-item">
+                                <a href="" class="pagination-item__link">
+                                    4
+                                 </a>
+                            </li>
+                            <li class="pagination-item">
+                                <a href="" class="pagination-item__link">
+                                    5
+                                 </a>
+                            </li>
+                            <li class="pagination-item">
+                                <a href="" class="pagination-item__link">
+                                    ...
+                                 </a>
+                            </li>
+                            <li class="pagination-item">
+                                <a href="" class="pagination-item__link">
+                                    14
+                                 </a>
+                            </li>
+                            <li class="pagination-item">
+                                <a href="" class="pagination-item__link">
+                                    <i class="pagination-item__icon fas fa-chevron-right"></i>
+                                 </a>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+            
+           
+        </div>
+
+        <!-- Footer -->
+        <footer class="footer">
+            <div class="grid wide footer__content">
+                
+                <div class="row">
+                    <div class="col l-2-4 m-4 c-6">
+                        <h3 class="footer__heading">
+                            Danh mục
+                        </h3>
+                        <ul class="footer__list">
+                            <li class="footer__list-item">
+                                <a href="" class="footer__list-link">
+                                    Áo thun
+                                </a>
+                            </li>
+                            <li class="footer__list-item">
+                                <a href="" class="footer__list-link">
+                                    Quần tây
+                                </a>
+                            </li>
+                            <li class="footer__list-item">
+                                <a href="" class="footer__list-link">
+                                    Áo khoác
+                                </a>
+                            </li>
+                            <li class="footer__list-item">
+                                <a href="" class="footer__list-link">
+                                    Áo sơ mi
+                                </a>
+                            </li>
+                        </ul>
+                    </div>
+                    <div class="col l-2-4 m-4 c-6">
+                        <h3 class="footer__heading">
+                           Giới thiệu
+                        </h3>
+                        <ul class="footer__list">
+                            <li class="footer__list-item">
+                                <a href="" class="footer__list-link">
+                                    Giới thiệu
+                                </a>
+                            </li>
+                            <li class="footer__list-item">
+                                <a href="" class="footer__list-link">
+                                    Tuyển dụng
+                                </a>
+                            </li>
+                            <li class="footer__list-item">
+                                <a href="" class="footer__list-link">
+                                    Điều khoản
+                                </a>
+                            </li>
+                           
+                        </ul>
+                    </div>
+                    <div class="col l-2-4 m-4 c-6">
+                        <h3 class="footer__heading">
+                           Theo dõi 
+                        </h3>
+                        <ul class="footer__list">
+                            <li class="footer__list-item">
+                                <a href="" class="footer__list-link">
+                                    <i class="footer__list-icon fab fa-facebook"></i>
+                                    Facebook
+                                </a>
+                            </li>
+                            <li class="footer__list-item">
+                                <a href="" class="footer__list-link">
+                                    <i class="footer__list-icon fab fa-instagram"></i>
+                                    Instagram
+                                </a>
+                            </li>
+                            <li class="footer__list-item">
+                                <a href="" class="footer__list-link">
+                                    <i class="footer__list-icon fab fa-twitter"></i>
+                                    Twitter
+                                </a>
+                            </li>
+                            
+                        </ul>
+                    </div>
+                    
+                    <div class="col l-2-4 m-4 c-6">
+                        <h3 class="footer__heading">
+                            Chăm sóc khách hàng
+                        </h3>
+                        <ul class="footer__list">
+                            <li class="footer__list-item">
+                                <a href="" class="footer__list-link">
+                                    Trung tâm trợ giúp
+                                </a>
+                            </li>
+                            <li class="footer__list-item">
+                                <a href="" class="footer__list-link">
+                                   Hướng dẫn mua hàng
+                                </a>
+                            </li>
+                            <li class="footer__list-item">
+                                <a href="" class="footer__list-link">
+                                    TTP-Brand Mail
+                                </a>
+                            </li>
+                            
+                        </ul>
+                    </div>
+                    <div class="col l-2-4 m-8 c-12">
+                        <h3 class="footer__heading">
+                            Vào cửa hàng trên ứng dụng
+                        </h3>
+                        <div class="footer__download">
+                            <img src="/assets/img/qr-code.png" alt="" class="footer__download-qr">
+                            <div class="footer__download-app">
+                                <a href="" class="footer__download-app-link">
+                                    
+                                    <img src="/assets/img/gg.png" alt="" class="footer__download-app-img">
+                                </a>
+                                <a href="" class="footer__download-app-link">
+
+                                    <img src="/assets/img/app-store.png" alt="" class="footer__download-app-img">
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                
+                
+            </div>
+           
+            <div class="footer__bottom">
+                <div class="grid wide ">
+                    <ul class="footer__policy row">
+                        <li class="footer__policy-item col c-12">
+                            <a href="" class="footer__policy-link">
+                                CHÍNH SÁCH BẢO MẬT
+                            </a>
+                            
+                        </li>
+                        <li class="footer__policy-item col c-12">
+                            <a href="" class="footer__policy-link">
+                                QUY CHẾ HOẠT ĐỘNG
+                            </a>
+                            
+                        </li>
+                        <li class="footer__policy-item col c-12">
+                            <a href="" class="footer__policy-link">
+                                CHÍNH SÁCH VẬN CHUYỂN
+                            </a>
+                           
+                        </li>
+                        <li class="footer__policy-item col c-12">
+                            <a href="" class="footer__policy-link">
+                                CHÍNH SÁCH TRẢ HÀNG VÀ HOÀN TIỀN
+                            </a>
+                            
+                        </li>
+                    </ul>
+                    <div class="footer__logo row">
+                        <img src="/assets/img/chung-nhan-an-toan-thuc-pham-removebg-preview.png" alt="" class="footer__logo-img ">
+                        <img src="/assets/img/dich-vu-cong-bo-san-pham-removebg-preview.png" alt="" class="footer__logo-img ">
+                        <img src="/assets/img/1645262-removebg-preview.png" alt="" class="footer__logo-img hide-on-mobile">
+                    </div>
+                    <p class="footer__company">
+                        Công ty TNHH PhatThuanTang
+                    </p>
+                    <p class="footer__address">
+                        Địa chỉ:  Lô E1, Phân khu đào tạo E1, Khu Công Nghệ cao , Phường Tân Phú, Quận 9, Thành phố Hồ Chí Minh, Việt Nam. 
+                        Tổng đài hỗ trợ: 1900000
+                        - Email: tangphat092000@gmail.com
+                    </p>
+                    <p class="footer__responsibility">
+                        Chịu Trách Nhiệm Quản Lý Nội Dung: Tăng Thuận Phát - Điện thoại liên hệ: 0123456789 (ext 4678)
+                    </p>
+                    <p class="footer_text">© 2021 - Bản quyền thuộc về TTP Brand</p>
+                </div>
+            </div>
+        </footer>
+    </div> 
+    <!-- Modal layout -->
+    <!-- <div class="modal">
+        <div class="modal__overlay">
+
+        </div>
+        <div class="modal__body">
+                
+                <div class="auth-form">
+                    <div class="auth-form__container">
+                        <div class="auth-form__header">
+                            <h3 class="auth-form__heading">
+                                Đăng ký
+                            </h3>
+                            <span class="auth-form__switch-btn">
+                                Đăng nhập
+                            </span>
+                        </div>
+                        <div class="auth-form__form">
+                            <div class="auth-form__group">
+                                <input type="text" class="auth-form__input" placeholder="Email của bạn">
+                            </div>
+                            <div class="auth-form__group">
+                                <input type="text" class="auth-form__input" placeholder="Mật khẩu của bạn">
+                            </div>
+                            <div class="auth-form__group">
+                                <input type="text" class="auth-form__input" placeholder="Nhập lại mật khẩu của bạn">
+                            </div>
+                        </div>
+                        <div class="auth-form__aside">
+                            <p class="auth-form__policy-text">
+                                Bằng việc đăng ký , bạn đã đồng ý với TTP Shop về 
+                                <a href="" class="auth-form__text-link">Điều khoản dịch vụ</a>
+                                &
+                                <a href="" class="auth-form__text-link">Chính sách bảo mật</a>
+                            </p>
+                        </div>
+                        <div class="auth-form__controls">
+                            <button class="btn auth-form__controls-back btn--normal">TRỞ LẠI</button>
+                            <button class="btn btn-primary">ĐĂNG KÝ</button>
+    
+                        </div>
+                    </div>
+                    <div class="auth-form__socials">
+                        <a href="" class="auth-form__socials--fb btn btn--size-s btn--with-icon">
+                            <i class="auth-form__socials-icon fab fa-facebook-square"></i>
+                            <span class="auth-form__socials-label">
+                                Kết nối với Facebook
+                            </span>
+                           
+                        </a>
+                        <a href="" class="auth-form__socials--gg btn btn--size-s btn--with-icon">
+                            <i class="auth-form__socials-icon fab fa-google"></i>
+                            <span class="auth-form__socials-label">
+                                Kết nối với Google
+                            </span>
+                            
+                        </a>
+                    </div>
+                </div>
+                
+                 <div class="auth-form">
+                    <div class="auth-form__container">
+                        <div class="auth-form__header">
+                            <h3 class="auth-form__heading">
+                                Đăng nhập
+                            </h3>
+                            <span class="auth-form__switch-btn">
+                                Đăng ký
+                            </span>
+                        </div>
+                        <div class="auth-form__form">
+                            <div class="auth-form__group">
+                                <input type="text" class="auth-form__input" placeholder="Email của bạn">
+                            </div>
+                            <div class="auth-form__group">
+                                <input type="text" class="auth-form__input" placeholder="Mật khẩu của bạn">
+                            </div>
+                            
+                        </div>
+                        <div class="auth-form__aside">
+                            <div class="auth-form__help">
+                                <a href="" class="auth-form__help-link auth-form__help-focus">
+                                    Quên mật khẩu
+                                </a>
+                                <span class="auth-form__help-border">
+
+                                </span>
+                                <a href="" class="auth-form__help-link">
+                                    Cần trợ giúp ?
+                                </a>
+                            </div>
+                        </div>
+                        <div class="auth-form__controls">
+                            <button class="btn auth-form__controls-back btn--normal">TRỞ LẠI</button>
+                            <button class="btn btn-primary">ĐĂNG NHẬP</button>
+    
+                        </div>
+                    </div>
+                    <div class="auth-form__socials">
+                        <a href="" class="auth-form__socials--fb btn btn--size-s btn--with-icon">
+                            <i class="auth-form__socials-icon fab fa-facebook-square"></i>
+                            <span class="auth-form__socials-label">
+                                Kết nối với Facebook
+                            </span>
+                           
+                        </a>
+                        <a href="" class="auth-form__socials--gg btn btn--size-s btn--with-icon">
+                            <i class="auth-form__socials-icon fab fa-google"></i>
+                            <span class="auth-form__socials-label">
+                                Kết nối với Google
+                            </span>
+                            
+                        </a>
+                    </div>
+                </div>
+
+            
+        </div>
+    </div> -->
+    <script src="/js.js"></script>
+</body>
+
+</html>
